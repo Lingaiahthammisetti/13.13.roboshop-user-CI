@@ -1,8 +1,8 @@
-@Library('jenkins-shared-library') _
+@Library('jenkins-shared-library-for-roboshop')
 
 // create variable of map type and set the values
 
-def configMap = [
+def configMap = [ //We no need type, because we are calling pipeline directly.
     component: "user",
     project: "roboshop"
 ]
